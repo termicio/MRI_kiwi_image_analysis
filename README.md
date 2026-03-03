@@ -40,3 +40,4 @@ Run the `main.ipynb` notebook in a Jupyter environment. Place input files in `fi
 ## Visualization
 
 <img width="424" height="368" alt="3D_segmentation" src="https://github.com/user-attachments/assets/ccdd9391-fa33-40a9-adf5-f79c4eccba30" />
+<img width="424" height="368" alt="image" src="https://github.com/user-attachments/assets/1ab9a8df-72cb-42cb-85e9-04bdc41c9de3" />
