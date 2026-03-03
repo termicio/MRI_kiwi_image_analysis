@@ -1,0 +1,20 @@
+Kiwi MRI analysis results:
+========================
+
+SEGMENTATION METRICS:
+Number of seeds: 1092
+Fruit volume [mm3]: 75025.27
+Seeds volume [mm3]: 1315.45
+Core volume [mm3]: 6968.27
+Seed/fruit ratio: 0.0175
+Seed search margin [mm]: 9
+Core closing size: 1
+Seed count (ground truth): 595
+
+BASELINE EVALUATION:
+Jaccard index (seeds): 0.4184
+Seed count (ground truth): 595
+Seed count (algorithm): 1092
+Seed count difference: 497
+
+Segmentation parameters:
