@@ -33,4 +33,4 @@ pip install nibabel numpy matplotlib scikit-image scipy scikit-learn
 
 ## Usage
 
-Run the `polaczenie_projekt.ipynb` notebook in a Jupyter environment. Place input files in `files/` and inspect outputs in `generated_files/`. Adjust parameters at the top of the notebook if needed.
+Run the `main.ipynb` notebook in a Jupyter environment. Place input files in `files/` and inspect outputs in `generated_files/`. Adjust parameters at the top of the notebook if needed.
