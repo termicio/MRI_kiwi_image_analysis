@@ -38,6 +38,8 @@ Run the `main.ipynb` notebook in a Jupyter environment. Place input files in `fi
 ---
 
 ## Visualization
+424 368
 
-<img width="424" height="368" alt="3D_segmentation" src="https://github.com/user-attachments/assets/ccdd9391-fa33-40a9-adf5-f79c4eccba30" />
-<img width="424" height="368" alt="image" src="https://github.com/user-attachments/assets/1ab9a8df-72cb-42cb-85e9-04bdc41c9de3" />
+<img width="456" height="464" alt="3D_segmentation" src="https://github.com/user-attachments/assets/ccdd9391-fa33-40a9-adf5-f79c4eccba30" />
+<img width="456" height="464" alt="image" src="https://github.com/user-attachments/assets/2dee0e3d-d977-427b-be16-5353220a405c" />
+
