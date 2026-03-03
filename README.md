@@ -34,3 +34,9 @@ pip install nibabel numpy matplotlib scikit-image scipy scikit-learn
 ## Usage
 
 Run the `main.ipynb` notebook in a Jupyter environment. Place input files in `files/` and inspect outputs in `generated_files/`. Adjust parameters at the top of the notebook if needed.
+
+---
+
+## Visualization
+
+<img width="424" height="368" alt="3D_segmentation" src="https://github.com/user-attachments/assets/ccdd9391-fa33-40a9-adf5-f79c4eccba30" />
