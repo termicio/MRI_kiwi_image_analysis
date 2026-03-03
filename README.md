@@ -2,6 +2,8 @@
 
 A compact Python project for processing and analyzing kiwi fruit MRI scans. The notebook loads image data, segments fruit, core, and seeds, and evaluates results against a ground truth mask. Outputs include masks, visualizations, and a simple metrics report.
 
+---
+
 ## Features
 
 - Load NIfTI files from `files/` directory
@@ -10,9 +12,13 @@ A compact Python project for processing and analyzing kiwi fruit MRI scans. The 
 - Baseline evaluation using Jaccard index and seed count comparison
 - Save segmentation masks and plots to `generated_files/`
 
+---
+
 ## Method
 
 The algorithm normalizes the volume, applies median filtering slice-by-slice, and uses Otsu thresholding adjusted by a factor to isolate the fruit. Core detection finds the largest dark region inside the fruit with 3D morphological closing. Seed segmentation restricts to an eroded interior region, thresholds for dark pixels, and removes small objects. Metrics are calculated from the 3D masks and compared to a provided ground truth mask.
+
+---
 
 ## Requirements
 
@@ -31,6 +37,8 @@ Install with:
 pip install nibabel numpy matplotlib scikit-image scipy scikit-learn
 ```
 
+---
+
 ## Usage
 
 Run the `main.ipynb` notebook in a Jupyter environment. Place input files in `files/` and inspect outputs in `generated_files/`. Adjust parameters at the top of the notebook if needed.
@@ -38,8 +46,12 @@ Run the `main.ipynb` notebook in a Jupyter environment. Place input files in `fi
 ---
 
 ## Visualization
-424 368
 
 <img width="456" height="464" alt="3D_segmentation" src="https://github.com/user-attachments/assets/ccdd9391-fa33-40a9-adf5-f79c4eccba30" />
 <img width="456" height="464" alt="image" src="https://github.com/user-attachments/assets/2dee0e3d-d977-427b-be16-5353220a405c" />
 
+---
+
+## Citation 
+
+If you use this project in academic work, please cite or reference this repository.
